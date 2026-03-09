@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mónaco</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <Style>
+        body{
+            font-family: Arial;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+        
+        #encabezado{
+            background-color: rgb(97, 209, 119);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .titulo{
+            font-size: 40px;
+        }
+
+        .menu{
+            background-color: black;
+        }
+
+        .menu ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .menu a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .contenido{
+            padding: 20px;
+            text-align: left;
+        }
+
+        .subtitulo{
+            color: rgb(164, 211, 106);
+        }
+
+        #descripcion{
+            font-size: 18px;
+        }
+
+        .imagen{
+            width: 500px;
+            border: 3px solid black;
+        }
+
+        .lista{
+            list-style-type: square;
+        }
+
+        #pie{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </Style>
+
+</head>
+<body>
+
+<header id="encabezado">
+    <h1 class="titulo">Mónaco</h1>
+</header>
+
+<nav class="menu">
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Historia</a></li>
+        <li><a href="#">Turismo</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
+
+<section class="contenido">
+    <h2 class="subtitulo">Sobre el país</h2>
+    <p id="descripcion">
+        Mónaco es un pequeño país ubicado en Europa, en la costa del mar Mediterráneo. 
+        Es conocido por su lujo, su famoso casino y por el Gran Premio de Fórmula 1.
+    </p>
+
+    <img class="imagen" src="https://images.unsplash.com/photo-1595138320174-a64d168e9970?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9uYWNvfGVufDB8fDB8fHww">
+
+    <h2 class="subtitulo">Datos importantes</h2>
+    <ul class="lista">
+        <li>Capital: Mónaco</li>
+        <li>Idioma oficial: francés</li>
+        <li>Moneda: euro</li>
+        <li>Es el segundo país más pequeño del mundo</li>
+    </ul>
+</section>
+
+<footer id="pie">
+    <p>Pagina web sobre Mónaco</p>
+</footer>
+
+</body>
+</html>
